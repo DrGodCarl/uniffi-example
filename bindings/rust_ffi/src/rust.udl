@@ -1,0 +1,6 @@
+[External="tiny_lib"]
+typedef extern TinyLibType;
+
+namespace rust {
+    void hello_rust(TinyLibType param);
+};

@@ -1,0 +1,7 @@
+namespace tiny_lib {
+};
+
+dictionary TinyLibType {
+    string key;
+    string value;
+};

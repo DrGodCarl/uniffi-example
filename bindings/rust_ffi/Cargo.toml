@@ -1,0 +1,12 @@
+[package]
+name = "rust_ffi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uniffi = "0.24.3"
+pure_rust = { path = "../../libs/pure_rust" }
+tiny_lib = { path = "../tiny_lib-ffi" }
+
+[build-dependencies]
+uniffi = { version = "0.24.3", features = ["build"] }
