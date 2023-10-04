@@ -2,5 +2,5 @@
 typedef extern TinyLibType;
 
 namespace rust {
-    void hello_rust(TinyLibType param);
+    void hello_rust([ByRef] TinyLibType param);
 };

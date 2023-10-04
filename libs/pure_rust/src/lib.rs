@@ -1,3 +1,3 @@
-pub fn hello_rust() {
-    println!("Hello, Rust!");
+pub fn hello_rust(name: &str) {
+    println!("Hello, {}!", name);
 }

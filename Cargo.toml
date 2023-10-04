@@ -3,5 +3,6 @@ members = [
     "libs/*",
     "bindings/*",
     "tools/*",
+    "megazords/*",
 ]
 resolver = "2"
